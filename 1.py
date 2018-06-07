@@ -29,7 +29,6 @@ def scp_download(path):
         sftp.get(remotepath='/hdfsftp/DM/JQR/PLAZA/'+path+'/'+n, 
                  localpath='/home/appuser/plaza_match/gc/'+n)
 
-
 def scp_upload(path):
     transport = paramiko.Transport(('10.199.207.5', 22))
     transport.connect(username='jqr', password='Jqr@123' )
