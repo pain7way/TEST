@@ -17,8 +17,8 @@
 
 | 参数名称         | 类型      | 必传   | 备注                                     |
 | ------------ | ------- | ---- | -------------------------------------- |
-| request_id   | string  | Y    | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上           |
-| data_type    | integer | Y    | 协议类型：1-item，2-action，物料上报取1            |
+| request_id   | string  | Y    | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上|
+| data_type    | integer | Y    | 协议类型：1-item，2-action，物料上报取1|
 | item_id      | string  | Y    | 物料id，物料唯一标识。corpon_number；cno          |
 | pool_id      | string  | Y    | 优惠券适合的广场id                             |
 | publish      | integer | N    | 1 - 上架（默认）， 0 - 下架                     |
