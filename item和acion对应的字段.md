@@ -1,4 +1,5 @@
-
+item  
+-------
 | 参数名称  | 备注 | 库    | 表  | 需要取出的字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no | 
@@ -16,7 +17,8 @@
 | item_desc | 优惠券描述信息，如标题或券的描述 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_title<br>c_subtitle<br>c_person_each_limit<br>c_person_daily_each_limit<br>c_use_period<br>c_use_rule<br>c_expired_after_hours |
 | store_id | 门店id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | csr_store_id   |
 
-
+action 
+-------
 | 参数名称  | 备注 | 库    | 表  | 字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id，物料唯一标识 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no  |
@@ -32,12 +34,13 @@
 
 
 需要从下表取出字段
-src_qf_prod_coupon.coupon
-src_mall.product
-app_compass.baseinfo_goods
-src_qf_prod_coupon.coupon_stock
-src_qf_prod_coupon.coupon_store_rule
-src_qianfan.wechat_mini_program_log
+-------
+##src_qf_prod_coupon.coupon
+##src_mall.product
+##app_compass.baseinfo_goods
+##src_qf_prod_coupon.coupon_stock
+##src_qf_prod_coupon.coupon_store_rule
+##src_qianfan.wechat_mini_program_log
 
 | 库  | 表 | 字段   | 类型  | 备注 | 更新周期 |
 |-------|:---:|:-----------:|:-------:|:-------|:-------|
@@ -77,6 +80,7 @@ src_qianfan.wechat_mini_program_log
 
 
 主表是 src_qf_prod_coupon.coupon 
+-----------
 
 | src_mall.product  | src_qf_prod_coupon.coupon |
 |-------|:---:|
@@ -96,7 +100,7 @@ src_qianfan.wechat_mini_program_log
 
 
 主表是 src_qianfan.wechat_mini_program_log
-
+-----------
 | src_qf_prod_coupon.coupon   | src_qianfan.wechat_mini_program_log |
 |-------|:---:|
 | c_no | coupon_id |
