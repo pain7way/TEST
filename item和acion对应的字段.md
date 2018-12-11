@@ -17,7 +17,9 @@ item
 | item_desc | 优惠券描述信息，如标题或券的描述 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_title<br>c_subtitle<br>c_person_each_limit<br>c_person_daily_each_limit<br>c_use_period<br>c_use_rule<br>c_expired_after_hours |
 | store_id | 门店id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | csr_store_id   |
 
->>action 
+******
+
+action 
 -------
 | 参数名称  | 备注 | 库    | 表  | 字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
@@ -30,8 +32,7 @@ item
 | action_id | 行为发生时间戳，秒级时间戳(需要确定是请求前还是请求后曝光，event_id去确定-赵淑云) | src_qianfan | src_qianfan.wechat_mini_program_log | orig_info里的event_time  |
 | pool_id | 优惠券适合的广场id（同item上报信息） | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | c_no    |
 
-
-
+************
 
 需要从下表取出字段
 -------
@@ -76,8 +77,7 @@ item
 | src_qianfan	| src_qianfan.wechat_mini_program_log	| orig_info里的event_time	| string | | 每日 3点 数分钟  |
 | src_qianfan	| src_qianfan.wechat_mini_program_log	| coupon_id	| int | | 每日 3点 数分钟  |
 
-
-
+******
 
 主表是 src_qf_prod_coupon.coupon 
 -----------
@@ -98,6 +98,7 @@ item
 |-------|:---:|
 | c_no | c_no |
 
+******
 
 主表是 src_qianfan.wechat_mini_program_log
 -----------
