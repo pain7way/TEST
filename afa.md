@@ -1,6 +1,5 @@
-| name  | age | gender    | money  |
-|-------|:---:|-----------|-------:|
-| item_id | 384 | robot     | $3,000 |
-| haroo | .3  | bird      | $430   |
-| jedi  | ?   | undefined | $0     |
---------------------- 
+| name  | age | gender    | money  | 11 |
+|-------|:---:|-----------|-------:|-------:|
+| item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon     | src_qf_prod_coupon.coupon | c_no |
+
+
