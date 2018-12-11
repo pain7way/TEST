@@ -1,19 +1,19 @@
 
 | 参数名称         | 类型      | 必传   | 备注                                     |
 | ------------ | ------- | ---- | -------------------------------------- | -------------------------------------- |
-| request_id   | string  | Y    | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上|
+| request_id   | string  | Y    | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上|1|
 | data_type    | integer | Y    | 协议类型：1-item，2-action，物料上报取1|
-| item_id      | string  | Y    | 物料id，物料唯一标识。corpon_number；cno          |
-| pool_id      | string  | Y    | 优惠券适合的广场id                             |
-| publish      | integer | N    | 1 - 上架（默认）， 0 - 下架                     |
-| item_desc    | string  | N    | 优惠券描述信息，如标题或券的描述                       |
-| vendor_desc  | string  | N    | 商家的描述信息（增加商家-品牌/门店ID）                  |
-| tags         | string  | N    | 标签信息，如品牌、业态等                           |
-| item_time    | string  | Y    | item上线时间                               |
-| expire_time  | string  | Y    | item过期时间，用于过期券的过滤                      |
-| small_type   | string  | Y    | 优惠券类型，如代金券、兑换券、停车券等                    |
-| price_real   | float   | Y    | 优惠券售价 （增加优惠类型）                         |
-| price_expect | float   | Y    | 优惠券价值 有可能 投放过滤：投放时间（静态）和库存（去库存+锁库存剩下的） |
+| item_id      | string  | Y    | 物料id，物料唯一标识。corpon_number；cno          |1|
+| pool_id      | string  | Y    | 优惠券适合的广场id                             |1|
+| publish      | integer | N    | 1 - 上架（默认）， 0 - 下架                     |1|
+| item_desc    | string  | N    | 优惠券描述信息，如标题或券的描述                       |1|
+| vendor_desc  | string  | N    | 商家的描述信息（增加商家-品牌/门店ID）                  |1|
+| tags         | string  | N    | 标签信息，如品牌、业态等                           |1|
+| item_time    | string  | Y    | item上线时间                               |1|
+| expire_time  | string  | Y    | item过期时间，用于过期券的过滤                      |1|
+| small_type   | string  | Y    | 优惠券类型，如代金券、兑换券、停车券等                    |1|
+| price_real   | float   | Y    | 优惠券售价 （增加优惠类型）                         |1||
+| price_expect | float   | Y    | 优惠券价值 有可能 投放过滤：投放时间（静态）和库存（去库存+锁库存剩下的） |1|
 
 #### Action 上报
 
