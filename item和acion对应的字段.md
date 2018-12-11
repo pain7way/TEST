@@ -35,12 +35,12 @@ action
 
 需要从下表取出字段
 -------
-##src_qf_prod_coupon.coupon
-##src_mall.product
-##app_compass.baseinfo_goods
-##src_qf_prod_coupon.coupon_stock
-##src_qf_prod_coupon.coupon_store_rule
-##src_qianfan.wechat_mini_program_log
+    src_qf_prod_coupon.coupon
+    src_mall.product
+    app_compass.baseinfo_goods
+    src_qf_prod_coupon.coupon_stock
+    src_qf_prod_coupon.coupon_store_rule
+    src_qianfan.wechat_mini_program_log
 
 | 库  | 表 | 字段   | 类型  | 备注 | 更新周期 |
 |-------|:---:|:-----------:|:-------:|:-------|:-------|
