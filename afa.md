@@ -17,6 +17,10 @@
 | store_id | 门店id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | csr_store_id   |
 
 
+
+
+
+
 | 参数名称  | 备注 | 库    | 表  | 字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id，物料唯一标识 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no  |
@@ -29,19 +33,29 @@
 | pool_id | 优惠券适合的广场id（同item上报信息） | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | c_no    |
 
 
+
+
+
+
 主表是src_qf_prod_coupon.coupon 
 
 | 表名  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | detail里的id | c_no |
 
+
+
 | app_compass.baseinfo_goods  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | coupon_id | c_no |
 
+
+
 | src_qf_prod_coupon.coupon_stock  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | c_no | c_no |
+
+
 
 | src_qf_prod_coupon.coupon_store_rule  | src_qf_prod_coupon.coupon |
 |-------|:---:|
