@@ -13,5 +13,5 @@
 | show_end_time | 投放结束时间 | app_compass | app_compass.baseinfo_goods | show_end_time |
 | cs_stock_num | 可用库存 | src_qf_prod_coupon | src_qf_prod_coupon.coupon_stock | cs_stock_num |
 | item_desc | 优惠券描述信息，如标题或券的描述 | src_mall | src_mall.product | title,subtitle,description |
-| item_desc | 优惠券描述信息，如标题或券的描述 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_title \n,c_subtitle,c_person_each_limit,c_person_daily_each_limit,c_use_period,c_use_rule,c_expired_after_hours |
+| item_desc | 优惠券描述信息，如标题或券的描述 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_title,c_subtitle,c_person_each_limit,c_person_daily_each_limit,c_use_period,c_use_rule,c_expired_after_hours |
 | store_id | 门店id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | csr_store_id   |
