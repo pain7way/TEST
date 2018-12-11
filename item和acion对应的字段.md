@@ -17,7 +17,7 @@ item
 | item_desc | 优惠券描述信息，如标题或券的描述 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_title<br>c_subtitle<br>c_person_each_limit<br>c_person_daily_each_limit<br>c_use_period<br>c_use_rule<br>c_expired_after_hours |
 | store_id | 门店id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | csr_store_id   |
 
-        action 
+>>action 
 -------
 | 参数名称  | 备注 | 库    | 表  | 字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
@@ -33,7 +33,7 @@ item
 
 
 
-        需要从下表取出字段
+需要从下表取出字段
 -------
     src_qf_prod_coupon.coupon
     src_mall.product
