@@ -29,21 +29,21 @@
 | pool_id | 优惠券适合的广场id（同item上报信息） | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | c_no    |
 
 
-主表是src_qf_prod_coupon.coupon
+主表是src_qf_prod_coupon.coupon 
 
 | 表名  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | detail里的id | c_no |
 
-| 表名  | src_qf_prod_coupon.coupon |
+| app_compass.baseinfo_goods  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | coupon_id | c_no |
 
-| 表名  | src_qf_prod_coupon.coupon |
+| src_qf_prod_coupon.coupon_stock  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | c_no | c_no |
 
-| 表名  | src_qf_prod_coupon.coupon |
+| src_qf_prod_coupon.coupon_store_rule  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | c_no | c_no |
 
