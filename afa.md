@@ -1,5 +1,5 @@
 
-| 参数名称  | 备注 | 库    | 表  | 字段 |
+| 参数名称  | 备注 | 库    | 表  | 需要取出的字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no | 
 | pool_id | 优惠券适合的广场id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | c_no |  
