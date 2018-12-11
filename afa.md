@@ -1,12 +1,11 @@
-| name  | age | gender    | money  | 11 |
-|-------|:---:|-----------|-------:|-------:|
-| item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon     | src_qf_prod_coupon.coupon | c_no |
 
 | 参数名称  | 备注 | 库    | 表  | 字段 |
-|-------|:---:|-----------|-------:|-------:|
+|-------|:---:|:-----------:|:-------:|:-------:|
 | item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no | 
 | pool_id | 优惠券适合的广场id | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | c_no |  
-| tags | 标签信息，如品牌、业态等 | src_mall | src_mall.product | first_category,second_category,third_category |
+| tags | 标签信息，如品牌、业态等 | src_mall | src_mall.product | first_category,
+second_category,
+third_category |
 | small_type | 优惠券类型，如代金券、兑换券、停车券等 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_type |
 | price_real | 优惠券售价 （增加优惠类型） | src_mall | src_mall.product | price |
 | price_expect | 优惠券价值 有可能 投放过滤：投放时间（静态）和库存（去库存+锁库存剩下的） | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_value |
