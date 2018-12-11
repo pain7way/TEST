@@ -1,5 +1,5 @@
 item  
--------
+=====
 | 参数名称  | 备注 | 库    | 表  | 需要取出的字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no | 
