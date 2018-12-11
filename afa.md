@@ -1,4 +1,8 @@
 
+item的对应情况 
+-------
+
+
 | 参数名称  | 备注 | 库    | 表  | 需要取出的字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id物料唯一标识corpon_numbercno | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no | 
@@ -19,7 +23,8 @@
 
 
 
-
+action的对应情况 
+-------
 
 | 参数名称  | 备注 | 库    | 表  | 字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
@@ -38,7 +43,7 @@
 
 
 主表是src_qf_prod_coupon.coupon 
-
+-------
 | 表名  | src_qf_prod_coupon.coupon |
 |-------|:---:|
 | detail里的id | c_no |
