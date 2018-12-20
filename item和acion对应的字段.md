@@ -26,11 +26,11 @@ action
 | 参数名称  | 备注 | 库    | 表  | 字段 |
 |-------|:---:|:-----------:|:-------:|:-------|
 | item_id | 物料id，物料唯一标识 | src_qf_prod_coupon | src_qf_prod_coupon.coupon | c_no  |
-| uid | imei/idfa，手机号、openID | src_qianfan | src_qianfan.wechat_mini_program_log | mobile  |
+| uid | imei/idfa，手机号、openID | src_qianfan | src_qianfan.wechat_mini_program_log | mobile<br>distinct_id  |
 | uid_type | 0-imei/idfa，2- 手机号，3-openID |   |   |   |
 | scene_id | 场景ID，sc_01：首页，sc_02：详情页，sc03：支付页 | src_qianfan | src_qianfan.wechat_mini_program_log | orig_info里的event_id  |
 | action_type | 用户行为：1-曝光 2-点击 3-转换（购买） 4-点赞（核销） 5-评论（退款/购买但没核销） | src_qianfan | src_qianfan.wechat_mini_program_log | orig_info里的event_id  |
-| session_id（改成tracr_id） | 向推荐引擎请求列表时由推荐引擎返回的session_id，用于A/Btesting分流和效果测试 | src_qianfan | src_qianfan.wechat_mini_program_log | distinct_id  |
+| session_id（改成tracr_id） | 向推荐引擎请求列表时由推荐引擎返回的session_id，用于A/Btesting分流和效果测试 |  |  |   |
 | action_id | 行为发生时间戳，秒级时间戳(需要确定是请求前还是请求后曝光，event_id去确定-赵淑云) | src_qianfan | src_qianfan.wechat_mini_program_log | orig_info里的event_time  |
 | pool_id | 优惠券适合的广场id（同item上报信息） | src_qf_prod_coupon | src_qf_prod_coupon.coupon_store_rule | c_no    |
 
